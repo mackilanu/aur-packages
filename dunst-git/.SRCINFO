@@ -1,0 +1,31 @@
+pkgbase = dunst-git
+	pkgdesc = Lightweight and customizable notification daemon
+	pkgver = 1.6.1.r13.g3acffdb
+	pkgrel = 1
+	url = https://dunst-project.org/
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = BSD
+	makedepends = git
+	makedepends = perl
+	makedepends = dbus
+	makedepends = wayland-protocols
+	makedepends = wayland
+	depends = libxinerama
+	depends = libxss
+	depends = pango
+	depends = libnotify
+	depends = gdk-pixbuf2
+	depends = libxdg-basedir
+	depends = libxrandr
+	provides = dunst
+	provides = notification-daemon
+	provides = dunstify
+	conflicts = dunst
+	conflicts = dunstify
+	source = git+https://github.com/dunst-project/dunst
+	md5sums = SKIP
+
+pkgname = dunst-git
+
